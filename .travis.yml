@@ -7,6 +7,8 @@ install:
   - sh ./scripts/install.sh
 script:
   - sh ./scripts/unit-test.sh
+after_script:
+  - sh ./scripts/package.sh
 notifications:
   email:
     recipients:
