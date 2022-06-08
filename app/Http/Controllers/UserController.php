@@ -8,8 +8,7 @@ use App\Http\Requests\User\UpdateRequest;
 use App\Models\User;
 use Symfony\Component\HttpFoundation\Response;
 
-class UserController extends Controller
-{
+class UserController extends Controller {
     protected User $user;
 
     public function __construct(User $user)
