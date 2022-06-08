@@ -8,6 +8,7 @@ install:
 script:
   - sh ./scripts/unit-test.sh
   - sh ./scripts/lint.sh
+  - sh ./scripts/static-analysis.sh
 after_script:
   - sh ./scripts/package.sh
 notifications:
