@@ -3,3 +3,9 @@ php:
   - '8.1'
 dist: focal
 os: linux
+notifications:
+  email:
+    recipients:
+      - yaosiang.su@104.com.tw
+    on_success: always
+    on_failure: always
