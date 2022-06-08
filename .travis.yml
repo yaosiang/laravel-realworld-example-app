@@ -3,6 +3,8 @@ php:
   - '8.1'
 dist: focal
 os: linux
+install:
+  - sh ./scripts/install.sh
 notifications:
   email:
     recipients:
