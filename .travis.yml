@@ -5,6 +5,8 @@ dist: focal
 os: linux
 install:
   - sh ./scripts/install.sh
+script:
+  - sh ./scripts/unit-test.sh
 notifications:
   email:
     recipients:
